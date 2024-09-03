@@ -1,5 +1,4 @@
-*
-{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -8,8 +7,7 @@
   border: none;
   outline: none;
 }
-:root
-{
+:root {
   --soft-red-clr: #fe7867;
   --yellow-clr: #fad400;
   --dark-desaturated-cyan-clr: #25564b;
