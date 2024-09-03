@@ -1,0 +1,24 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+  border: none;
+  outline: none;
+}
+:root
+{
+  --soft-red-clr: #fe7867;
+  --yellow-clr: #fad400;
+  --dark-desaturated-cyan-clr: #25564b;
+  --dark-blue-clr: #19536b;
+  --dark-moderate-cyan-clr: #458c7e;
+  --very-dark-desaturated-blue-clr: #23303e;
+  --very-dark-grayish-blue-clr: #5a636c;
+  --dark-grayish-blue-clr: #818498;
+  --grayish-blue-clr: #a7abae;
+  --white-clr: #fff;
+  --black-clr: #000;
+}
