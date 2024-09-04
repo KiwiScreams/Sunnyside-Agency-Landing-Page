@@ -1,4 +1,5 @@
-* {
+*
+{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -6,8 +7,10 @@
   text-decoration: none;
   border: none;
   outline: none;
+  transition: 0.3s;
 }
-:root {
+:root
+{
   --soft-red-clr: #fe7867;
   --yellow-clr: #fad400;
   --dark-desaturated-cyan-clr: #25564b;
@@ -19,4 +22,8 @@
   --grayish-blue-clr: #a7abae;
   --white-clr: #fff;
   --black-clr: #000;
+}
+button, a
+{
+  cursor: pointer;
 }
