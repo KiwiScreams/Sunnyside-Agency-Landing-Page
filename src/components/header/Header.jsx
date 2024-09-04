@@ -11,16 +11,16 @@ const Header = () => {
         <nav>
           <ul>
             <li>
-              <Link>About</Link>
+              <Link data-text="ABOUT">About</Link>
             </li>
             <li>
-              <Link>Services</Link>
+              <Link data-text="SERVICES">Services</Link>
             </li>
             <li>
-              <Link>Projects</Link>
+              <Link data-text="PROJECTS">Projects</Link>
             </li>
             <li>
-              <Link>Contact</Link>
+              <Link data-text="CONTACT">Contact</Link>
             </li>
           </ul>
         </nav>
