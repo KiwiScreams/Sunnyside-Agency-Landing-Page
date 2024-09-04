@@ -27,3 +27,17 @@ button, a
 {
   cursor: pointer;
 }
+::-webkit-scrollbar
+{
+  display: block;
+  width: 10px;
+}
+::-webkit-scrollbar-thumb
+{
+  background-color: #67c5ff;
+  border-radius: 20px;
+}
+::-webkit-scrollbar-track
+{
+  background-color: var(--white-clr);
+}
