@@ -3,9 +3,9 @@
     width: 100%;
     height: 100vh;
     background: url(../../assets/desktop/image-header.jpg);
-    background-position: center;
     background-size: 100%;
     padding-top: 144px;
+    background-repeat: no-repeat;
 }
 .layout-section h1
 {
@@ -31,5 +31,30 @@
     50%
     {
       transform: translateY(100px);
+    }
+}
+@media screen and (max-width: 1000px)
+{
+    .layout-section
+    {
+      background: url(../../assets/mobile/image-header.jpg);
+      background-size: 100%;
+      background-repeat: no-repeat;
+      background-size: 100%;
+      background-position: center;
+    }
+}
+@media screen and (max-width: 600px)
+{
+    .layout-section
+    {
+      background: url(../../assets/mobile/image-header.jpg);
+      background-size: 100%;
+      background-size: 100%;
+      background-repeat: no-repeat;
+    }
+    .layout-section img
+    {
+        animation: none;
     }
 }
