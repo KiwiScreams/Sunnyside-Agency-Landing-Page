@@ -6,7 +6,7 @@ const Header = () => {
   const [isScrolling, setIsScrolling] = useState(false);
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > 50) {
+      if (window.scrollY > 100) {
         setIsScrolling(true);
       } else {
         setIsScrolling(false);

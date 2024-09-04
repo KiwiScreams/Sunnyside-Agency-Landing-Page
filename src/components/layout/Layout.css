@@ -22,6 +22,10 @@
     margin: 0px auto;
     animation: arrowMove 1s infinite ease-in-out;
 }
+.layout-section img:hover
+{
+    animation-play-state: paused;
+}
 @keyframes arrowMove
 {
     0%, 100%
