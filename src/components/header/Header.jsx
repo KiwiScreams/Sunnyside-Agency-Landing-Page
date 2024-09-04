@@ -1,10 +1,25 @@
 import "./Header.css";
 import { Link } from "react-router-dom";
 import logo from "../../assets/images/logo.svg";
+import { useState, useEffect } from "react";
 const Header = () => {
+  const [isScrolling, setIsScrolling] = useState(false);
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 50) {
+        setIsScrolling(true);
+      } else {
+        setIsScrolling(false);
+      }
+    };
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
   return (
     <>
-      <header>
+      <header className={isScrolling ? "scrolling" : ""}>
         <Link>
           <img src={logo} alt="logo" />
         </Link>
